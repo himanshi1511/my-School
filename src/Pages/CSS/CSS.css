@@ -1,0 +1,69 @@
+
+.page{
+    display: flex;
+}
+.sidebar{
+    background-color: rgb(190, 190, 190);
+    padding-top: 6rem;
+}
+.sidebarcontent{
+    overflow-y: scroll;
+    height: 88vh;
+}
+.sidebarcontent div p{
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.sidebarcontent div h4{
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+.mainpage{
+    padding-top: 6rem;
+    width: 70%;
+}
+.contentcss{
+    padding-top: 9.5rem;
+}
+.sectionbutton{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1.5rem;
+}
+.sectionbutton button{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: rgb(20, 136, 0);
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.section3content{
+    margin-top: 1.5rem;
+    background-color: rgb(221, 237, 226);
+    padding: 2.5rem 1.5rem;
+}
+.section3content div button{
+    background-color: rgb(20, 136, 0);
+    color: white;
+    padding: 1rem 1.5rem;
+    border-radius:5px ;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+.box{
+    background-color: rgb(231, 233, 235);
+}
+.box div{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}

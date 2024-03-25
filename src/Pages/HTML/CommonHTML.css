@@ -1,0 +1,12 @@
+.examples{
+    height: fit-content;
+    max-height: fit-content;
+    font-size: 13px;
+    background-color: white;
+    margin-left:0.6rem;
+    padding: 20px 0px;
+    padding-left: 10px;
+    margin-right: 2rem;
+    border-left: 4px solid #04AA6D; 
+    margin-bottom: 1rem; 
+}

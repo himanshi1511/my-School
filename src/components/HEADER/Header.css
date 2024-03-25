@@ -1,0 +1,120 @@
+.header {
+    background-color: white;
+    position: fixed;
+    padding: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    height: 5rem;
+    isolation: isolate;
+  }
+
+  .signup{
+    margin-top: 0.5rem;
+    border-radius: 20px;
+    padding: 5px;
+    width: 70px;
+    height: 40px;
+    border: none;
+  }
+  .login{
+    margin-top: 0.5rem;
+    border-radius: 20px;
+    padding: 5px;
+    width: 70px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+  }
+.navbar-nav .nav-item .nav-link {
+    color: #333; 
+    background-color: transparent; 
+
+  }
+  
+  .navbar-nav .nav-item .nav-link:hover {
+    background-color: #04AA6D; 
+    color: white; 
+  }
+  
+  .navbar-nav .nav-item .nav-link.active {
+    background-color: #04AA6D;; 
+    color: white; 
+  }
+  
+  .logo {
+    margin-left: 0;
+    margin-right: 2px; 
+    height: 2.5rem;
+    width: 3rem;
+}
+  
+  .logo-img {
+    padding-top: 0.41rem;
+    width: 75%;
+  }
+ 
+/* Your existing styles */
+
+/* Dark Theme */
+.dark-theme {
+  background-color: #282A35;
+  color: white;
+}
+
+/* Light Theme */
+.light-theme {
+  background-color: white;
+  color: #282A35;
+}
+
+/* Additional styles for the button */
+.theme-toggle.dark-theme:hover {
+  background-color: black; 
+  color: white; 
+}
+.theme-toggle.light-theme:hover {
+  background-color: white; 
+  color: black; 
+
+}
+
+.signup, .login {
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(50, 50, 50, 0.12);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  width: 100px;
+  height: 40px;
+  padding: 0 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.signup {
+  background-color: #04AA6D;
+  color: white;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.login {
+  background-color: #D9EEE1;
+  color: black;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.signup:hover {
+  background-color: #038F58;
+}
+
+.login:hover {
+  background-color: #04AA6D;
+}
+.button-container{
+  margin-left: auto;
+}

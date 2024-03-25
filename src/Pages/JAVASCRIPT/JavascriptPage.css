@@ -1,0 +1,28 @@
+.page{
+    display: flex;
+}
+.sidebar{
+    background-color: rgb(190, 190, 190);
+    padding-top: 6.8rem;
+}
+.sidebarcontent{
+    overflow-y: scroll;
+    height: 85vh;
+    padding-bottom: 20px;
+}
+.sidebarcontent div p{
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.sidebarcontent div h4{
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+.sidebarcontent div p.active{
+    background-color: #04AA6D;
+    color: white;
+}

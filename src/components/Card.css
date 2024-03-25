@@ -1,0 +1,41 @@
+
+.content-div{
+    display: grid;
+    justify-self: center;
+    justify-content: center;
+    margin : 2rem;
+    
+}
+.col1{
+    margin: 0 3rem;
+    height: fit-content;
+    width: fit-content;
+}
+.col2{
+    height: fit-content;
+    width: fit-content;
+    margin: 0 3rem;
+}
+.col2{
+    height: fit-content;
+    width: fit-content;
+    margin: 0 3rem;
+}
+
+.card-sub-heading{
+    color: #FFF4A3;
+    margin: 1rem;
+}
+
+.learning:hover{
+    /* color: black; */
+    background-color: transparent;
+}
+.linkss a{
+    padding: 10px;
+    text-decoration: none;
+    color: #FFF4A3;
+    font-weight :400;
+    font-size: smaller;
+}
+
